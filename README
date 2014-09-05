@@ -1,0 +1,51 @@
+To Start:____________________________________________________________
+
+1. Drag files in "exe" folder to anywhere you want. Please make sure properties files and jar files are under the same folder
+2. open terminal
+3. run "java -jar mp3.jar"
+4. First please input your port number
+**Please DO REMEMBER: ANY PORT NUMBER UNDER 3000 ARE RESERVED, USING THEM MAY CASUE PROBLEM!
+5. You will be asked if you are the contact machine(threshold). Type y or n( plese start contact machine first!)
+6. If you are the contact machine, your machine# will be automatically set to 0, or you will be asked to input your machine number
+**Please use number between 1~100 :)
+7. then input your contact machine's IP and port number if you are not the contact machine
+8. Done!
+
+
+
+
+To Use:______________________________________________________________
+
+1.when you see a line "Please give your order: " then you can give your order
+2.orders include "get", "delete", "put", like "put a.txt b", "get c d.txt" "delete e"...
+**Please DO REMEMBER: The machine will find it and report to you if you input files don't exist or your order doesn't start with delete/put/get
+**But, the machine will not detect structure error with command! For example, if you input "get" with only one argument, like "get a.cpp", then the program may crash.
+3.Sometimes because the samll sychronization problem, "Please give your order: " may come before information message
+For example, it is supposed to show:
+
+"blablabla done!
+Please give your order: "
+
+But it shows:
+
+"Please give your order: 
+blablabla done!"
+
+In such case, please do not care! :)
+
+
+
+
+To re-join:__________________________________________________________
+
+If one of your machine failed, don't worry, my project has already built a folder "sdfs" that stores every file you uploaded.
+Once you get back to the network, your server will automatically tell others he is back and upload information about your files to update the network. 
+So Nothing will be lost no matter any machine or machines fail.( Of course if they all fail.. then... :(...)
+
+1. Just repeat every steps in "To Start" part and it is done!!!
+**You can even use a different port number or machine number, it doesn't matter. 
+
+
+
+
+Have fun!!!
